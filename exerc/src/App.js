@@ -14,17 +14,10 @@ const data = {
     },
   ],
 }
-const data2 = {
-  labels:Array ["Red", "Blue", "Green", "Violet", "Orange", "Yellow"],
-  datasets: [
-    {
-      label:"mes artcles ",
-      data2: ["99", "119", "99", "119", "129", "139"],
-      produit:["99", "119", "99", "119", "129", "139"],
-      backgroundColor: ["Red", "Blue", "Green", "Violet", "Orange", "Yellow"],
-    },
-  ],
-}
+
+
+
+
 
 
 const options = {
