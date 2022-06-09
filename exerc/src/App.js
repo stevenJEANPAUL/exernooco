@@ -9,11 +9,12 @@ const data = {
   datasets: [
     {
       label:"Mes Articles",
-      data: ["99", "119", "99", "119", "129", "139"],
+      data : ["99", "119", "99", "119", "129", "139"],
       backgroundColor: ["#00ffff", "#7fffd4", "Red", "Violet", "Orange", "Yellow"],
     },
   ],
 }
+
 
 
 
@@ -30,9 +31,6 @@ function App() {
       <div className="container">
       <div className="card2">
         <Bar data={data} options={options} />
-      </div>
-      <div className="card">
-        <Doughnut data={data} options={options} />
       </div>
       </div>
     </div>
